@@ -4,6 +4,8 @@
 cd my-app
 npm install
 
+(If this is not working run command: export NODE_OPTIONS=--openssl-legacy-provider)
+
 ### You can then run the project with the command
 npm start
 
@@ -11,3 +13,4 @@ npm start
 Inside the folder named src you will find a file named posts.json. This file will not be used until a challenge later in the content.  
 
 For convenience react comes installed in this template. A package named axios has also been installed as it will be required in a challenge later.
+
